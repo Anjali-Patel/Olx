@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home"
+        title="Home" />
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/ic_chat"
+        title="Chats" />
+
+    <tab
+        id="@+id/tab_sell"
+        icon="@drawable/ic_sale"
+        title="Sell" />
+
+    <tab
+        id="@+id/tab_buy"
+        icon="@drawable/ic_location"
+        title="Want" />
+    <tab
+        id="@+id/tab_more"
+        icon="@drawable/ic_manu"
+        title="More" />
+
+</tabs>

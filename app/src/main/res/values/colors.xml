@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4285F4</color>
+    <color name="colorPrimaryDark">#4285F4</color>
+    <color name="colorAccent">#4285F4</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#4285F4</color>
+    <color name="darkblue">#032543</color>
+
+
+    <color name="background_color">#F3F1F2</color>
+    <color name="transparant_gray">#27535050</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="chat_toolbar">#075e55</color>
+    <color name="chat_statusbar">#074e48</color>
+    <!--<color name="user_chat_bg">#cce97e</color>-->
+    <color name="user_chat_bg">#e2ffc5</color>
+    <!--<color name="chaticon">#088872</color>-->
+    <color name="chaticon">#00614B</color>
+    <color name="red">#ff0000</color>
+
+
+
+</resources>

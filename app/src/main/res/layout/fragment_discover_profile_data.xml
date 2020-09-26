@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    app:cardElevation="8dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/adapterUserImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"  />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextName"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:padding="2dp" />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextMobile"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextEmail"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextAddr"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextCity"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextPin"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextstate"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:id="@+id/adapterTextCountry"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:padding="2dp" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

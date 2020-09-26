@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "279976690123",
+    "firebase_url": "https://bsellnotifications.firebaseio.com",
+    "project_id": "bsellnotifications",
+    "storage_bucket": "bsellnotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279976690123:android:9f3cdc464a812a6f",
+        "android_client_info": {
+          "package_name": "gss.com.bsell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279976690123-bdd3nsugjjnrkqeobrr16utrmkrffn3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAK6s5uGkERJWslPbQnkrwN2EOHbBATyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279976690123-bdd3nsugjjnrkqeobrr16utrmkrffn3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

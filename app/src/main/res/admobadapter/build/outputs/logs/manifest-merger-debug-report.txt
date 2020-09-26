@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+	package
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:17:5-41
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:16:5-51
+	android:versionCode
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:1-20:12
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:15:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml:19:22-64
+uses-sdk
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		ADDED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml
+		INJECTED from /media/genie/7812ec0e-830d-461f-a442-f7218c300149/Apurva/admobadapter-master/admobadapter/src/main/AndroidManifest.xml

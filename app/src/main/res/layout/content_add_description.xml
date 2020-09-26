@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_add_description">
+
+     <LinearLayout
+         android:padding="20dp"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <ProgressBar
+             android:id="@+id/progress_bar"
+             android:visibility="gone"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+         <TextView
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"
+             android:textStyle="bold"
+             android:textColor="@color/colorPrimaryDark"
+             android:text="Details"
+             android:textSize="20sp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:id="@+id/tvCategory"
+                 android:textColor="@color/colorPrimaryDark"
+                 android:text="Select Category"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:drawableEnd="@drawable/arrow"/>
+             <EditText
+                 android:id="@+id/et_category"
+                 android:visibility="gone"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:textColor="@color/colorPrimaryDark"
+                 android:text="Price(₹)"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <EditText
+                 android:id="@+id/et_price"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:textColor="@color/colorPrimaryDark"
+                 android:text="Description"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <EditText
+                 android:id="@+id/et_description"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="20dp"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <TextView
+                 android:textColor="@color/colorPrimaryDark"
+                 android:text="Location"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <EditText
+                 android:id="@+id/et_location"
+                 android:visibility="gone"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <fragment
+             android:id="@+id/place_autocomplete_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+
+             />
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="@color/black"
+             android:layout_marginBottom="10dp"/>
+
+         <Button
+             android:text="post your ad"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:background="@color/colorPrimaryDark"
+             android:id="@+id/post_Ad"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

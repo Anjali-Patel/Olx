@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group_menu_about_us">
+        <item
+            android:icon="@drawable/ic_about_us"
+            android:id="@+id/nav_about_us"
+            android:title="About Us" />
+    </group>
+    <group android:id="@+id/group_menu_contact_us">
+        <item
+            android:icon="@drawable/ic_contact_us"
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us" />
+    </group>
+
+    <group android:id="@+id/group_menu_logout">
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
